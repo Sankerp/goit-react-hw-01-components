@@ -11,7 +11,7 @@ const Profile = props => {
   return (
     <UserProfileStyled className="profile">
       <div className="userInfo">
-        <img src={avatar} alt="User image" className="avatar" />
+        <img src={avatar} alt="User avatar" className="avatar" />
         <UserNameStyled className="name">{username}</UserNameStyled>
         <p className="tag">{tag}</p>
         <p className="location">{location}</p>
