@@ -1,7 +1,6 @@
 import PropTypes from 'prop-types';
 import { StatisticsLi, StatisticsStyled, Title } from './Statistics.Styled';
 const Statistics = props => {
-  console.log(props);
   function getRandomHexColor() {
     return `#${Math.floor(Math.random() * 16777215)
       .toString(16)
